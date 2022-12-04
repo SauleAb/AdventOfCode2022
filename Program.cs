@@ -2,12 +2,10 @@
 {
     string[] match = File.ReadAllLines("Day2.txt");
 
-
     int count = 0;
-    int rock = 1; //rock
-    int paper = 2; //paper
-    int scissors = 3; //scissors
-
+    int rock = 1;
+    int paper = 2;
+    int scissors = 3;
 
 foreach (string line in match)
 {
